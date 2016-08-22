@@ -1,0 +1,114 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Contact</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!----webfonts---->
+		<link href='http://fonts.googleapis.com/css?family=Oswald:100,400,300,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic' rel='stylesheet' type='text/css'>
+		<!----//webfonts---->
+		  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<!--end slider -->
+		<!--script-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<!---->
+
+</head>
+<body>
+<!---header---->			
+<div class="header">  
+	 <div class="container">
+		  <div class="logo">
+			  <a href="index.html"><img src="images/logo1.gif" title="" /></a>
+		  </div>
+			 <!---start-top-nav---->
+			 <div class="top-menu">
+				 <div class="search">
+					
+				 </div>
+				  <span class="menu"> </span> 
+				   <ul>
+						<li><a href="index.html">HOME</a></li>						
+						<li><a href="about.html">ABOUT</a></li>	
+						<li class="active"><a href="contact.html">CONTACT</a></li>						
+						<div class="clearfix"> </div>
+				 </ul>
+			 </div>
+			 <div class="clearfix"></div>
+					<script>
+					$("span.menu").click(function(){
+					$(".top-menu ul").slideToggle("slow" , function(){
+					});
+					});
+					</script>
+				<!---//End-top-nav---->					
+	 </div>
+</div>
+<!--/header-->
+<div class="contact-content">
+	 <div class="container">
+		     <div class="contact-info">
+			 <h2>CONTACT</h2>
+			 <p></p>
+		     </div>
+			 <div class="contact-details">				 
+			 <form>
+				 <input type="text" placeholder="Name" required/>
+				 <input type="text" placeholder="Email" required/>
+				 <input type="text" placeholder="Phone" required/>
+				 <input type="text" placeholder="City Name" required/>
+				 <textarea placeholder="Message"></textarea>
+				 <input type="submit" value="SEND"/>
+			 </form>
+		  </div>
+		  <div class="contact-details">
+			  <div class="col-md-6 contact-map">
+				 <h4>FIND US HERE</h4>
+				
+ 				<iframe src="https://www.google.com/maps/embed/v1/place?q=Quarry+St,+Ultimo,+NSW,+2007,+Australia&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU" frameborder="0" style="border:0"></iframe>
+ 
+
+  
+                 
+			  </div>
+			  <div class="col-md-6 company_address">		 
+					<h4>GET IN TOUCH</h4>
+					<p></p>
+					<p>Quarry St, Sydney,</p>
+					<p>NSW 2007, Australia</p>
+					<p>Phone:(00) xx xx xxxxxx</p>
+					<p>Fax: (000) xx xx xxxxxx</p>
+					<p>Email: <a href="mailto:thanmyin@thanmyintw.sgedu.site">thanmyin@thanmyintw.sgedu.site</a></p>
+					
+			 </div>
+			  <div class="clearfix"></div>
+	     </div>		 
+
+
+			 </div>
+	 </div>
+</div>
+<!---->
+<div class="footer">
+	 <div class="container">
+	 
+	 </div>
+</div>
+
+	
